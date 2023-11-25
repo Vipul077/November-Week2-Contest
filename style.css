@@ -1,3 +1,307 @@
 *{
-    background-color: yellow;
+    margin: 0px;
+    padding: 0px;
+    /* align-items: center; */
+    
+}
+
+html{
+    background-color: rgba(0, 0, 0, 1);
+    width: 1300px;
+    padding: 10px 40px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.restro-name{
+    font-family: Ruda;
+    font-size: 29px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.menu{
+    display: flex;
+}
+
+.a{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    padding: 0px 20px;
+}
+
+.logos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.ba{    
+    background-color: black;
+}
+
+.main-content{
+    background-image: url(./Assets/pizza1\ 1.jpg);
+    width: 100%;
+    height: 800px;
+    padding: 100px 80px;
+}
+
+.craving{
+    font-family: Quattrocento;
+    font-size: 101px;
+    font-weight: 700;
+    text-align: left;
+    width: 586px;
+    padding-bottom: 40px;
+    /* height: 13px; */
+    border-bottom: 10px solid rgba(242, 76, 76, 1);
+}
+
+.craving-content{
+    width: 450px;
+    font-family: Ruda;
+    padding-top: 40px;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0.04em;
+    text-align: justify;
+
+}
+
+.about-us{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.aboutt{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+.about-content{
+    width: 400px;
+    font-family: Ruda;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0.04em;
+    text-align: justify;
+}
+
+
+.head, .head-1{
+    font-family: Quattrocento;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 400;
+    letter-spacing: 0em;
+    text-align: center;
+    width: 300px;
+    padding: 40px   ;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 10px solid rgba(242, 76, 76, 1);;
+}
+
+.menus{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.menus-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.menus>.menus-1>h1{
+    margin-right: 400px;
+}
+
+.cards{
+    display: flex;
+    /* border: 2px solid yellow; */
+    width: 480px;
+    height: 200px;
+    flex-direction: row;
+    padding-bottom: 20px;
+    gap: 20px;
+
+}
+
+.cardss{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.para{
+    width: 700px;
+    text-align: left;
+    padding-bottom: 40px;
+}
+
+
+.card-content>h3{
+    color: rgba(242, 201, 76, 1);
+    text-align: left;
+    font-family: Ruda;
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: 0em;
+    text-align: left;
+    
+}
+
+.card>img{
+    width: 200px;
+    border-radius: 10px;
+}
+
+.card-content>p{
+    font-family: Ruda;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    text-align: left;
+
+}
+
+.crousel{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.slider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.piza{
+    border-radius: 10px;
+}
+
+.piza-1{
+    background: black;
+}
+
+.gallery{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.images{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.image-1-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.image-1-2{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.find-us{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.find{
+    display: flex;
+    padding: 40px 100px;
+    gap: 40px;
+}
+
+.content-1>p{
+
+    font-family: Ruda;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0.09em;
+    text-align: left;
+    padding-bottom: 20px;
+}
+
+.content-right{
+    font-family: Ruda;
+font-size: 20px;
+font-weight: 700;
+line-height: 40px;
+letter-spacing: 0.04em;
+text-align: left;
+display: flex;
+flex-direction: column;
+}
+
+.loc{
+    display: flex;
+    gap: 20px;
+}
+
+.loc>img{
+    background: transparent;
+}
+
+.number{
+    display: flex;
+    gap: 20px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 120px;
+    align-items: center;
+    text-align: center;
 }
